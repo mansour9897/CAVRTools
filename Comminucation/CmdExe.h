@@ -13,5 +13,5 @@ struct CmdExe
     char IsReady;
 };
 
-void cmdExe_insert_char(char ch, struct CmdExe _cmd);
+void cmdExe_insert_char(char ch, struct CmdExe *pCmd);
 #endif
