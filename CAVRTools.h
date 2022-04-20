@@ -3,7 +3,7 @@
 
 #include "Comminucation/CmdExe.h"
 #include "Debug/Debug.h"
-#include "Strings/Strings.h"
+#include "Strings/StrUtility.h"
 
 #define bool char
 #define true 1
