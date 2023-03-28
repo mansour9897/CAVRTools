@@ -6,7 +6,4 @@
 #include "Strings/StrUtility.h"
 #include "datatype.h"
 
-#define bool char
-#define true 1
-#define false 0
 #endif
