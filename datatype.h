@@ -17,8 +17,4 @@
 //End of boolean type
 #pragma endregion
 
-#define uint_8 unsigned char;
-#define uint_16 unsigned int;
-#define uint_32 unsigned long int;
-
 #endif /* __datatype_ */

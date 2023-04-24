@@ -3,12 +3,15 @@
 char IsDebugMode = 0;
 
 void debug_activate(void)
-{
+{   
     IsDebugMode = 1;
+    debug_print("Debug mode activated\r\n");
+
 }
 
 void debug_deactivate(void)
 {
+    debug_print("Debug mode deactivated\r\n");
     IsDebugMode = 0;
 }
 
